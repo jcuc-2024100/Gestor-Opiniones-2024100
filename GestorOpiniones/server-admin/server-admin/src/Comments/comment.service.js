@@ -22,6 +22,7 @@ export const createComment = async ({ postId, text, userId }) => {
     post: postId,
     author: userId,
   });
+  
 
   return comment;
 };
